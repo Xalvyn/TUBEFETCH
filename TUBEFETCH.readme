@@ -1,0 +1,73 @@
+# TubeFetch v1.0.1
+
+Your complete desktop solution for managing and archiving YouTube channels. TubeFetch is a powerful desktop application designed for content creators, archivists, and YouTube power-users who want a reliable way to download videos and shorts from their favorite channels.
+
+Built with the speed and reliability of `yt-dlp` and a clean, intuitive interface, TubeFetch streamlines the entire process of saving content locally.
+
+![App Screenshot](https://i.imgur.com/your-screenshot-url.png)
+*(**Pro Tip:** Take a screenshot of TubeFetch running, upload it to a site like [Imgur](https://imgur.com/), and replace the URL above to showcase your app!)*
+
+## Why TubeFetch?
+
+Tired of manually checking your favorite YouTube channels for new content or using unreliable web-based downloaders? TubeFetch brings all the functionality you need to your desktop in a single, robust application. It remembers what you've already downloaded, supports both long-form videos and Shorts, and gives you full control over save locations and video quality.
+
+## Key Features
+
+*   🗂️ **Multi-Channel Management:** Add, remove, and manage an unlimited list of YouTube channels in one place.
+*   🎬 **Dual Download Modes:** Independently download the latest **long-form videos** or the latest **Shorts** from any channel.
+*   🧠 **Smart Search & History:** The app keeps a history of your downloads for each channel and will only fetch videos that are new since your last check. Never download the same video twice!
+*   🍪 **Full Cookie Support:** By providing your browser's cookies, you can download age-restricted, private, or members-only content that you have access to.
+*   📂 **Flexible Save Locations:** Set a global download folder for all channels, or override it and give each channel its own unique save location.
+*   🎨 **Light & Dark Themes:** Choose the look that fits your style with easily switchable light and dark modes.
+*   🔄 **Backup & Restore:** Export your entire channel list and download history to a single JSON file for easy backup or migration to another computer.
+
+## License Required
+
+TubeFetch is premium software and requires an active license to use all of its features.
+
+To purchase a license, please contact us with the subject "TubeFetch License Purchase".
+
+*   **Price:** **$2 USD / month**
+*   **Contact Email:** **[usama.devwork@gmail.com](mailto:usama.devwork@gmail.com?subject=TubeFetch%20License%20Purchase)**
+
+Upon payment, you will receive a license key and instructions on how to activate the software.
+
+## Installation
+
+1.  Go to the [**Releases Page**](https://github.com/your-username/TubeFetch/releases) of this repository.
+2.  Download the `TubeFetch_v1.0.1_installer.exe` file from the latest release.
+3.  Run the installer and follow the on-screen instructions.
+
+## How to Use
+
+#### Adding a Channel
+1.  Click the **+ Add Channel** button.
+2.  Paste the URL of a YouTube channel (e.g., `https://www.youtube.com/@MrBeast`).
+3.  Click **Add Channel**. The app will fetch the channel's details and add it to your list.
+
+#### Downloading Videos
+1.  Select a channel from the list on the left.
+2.  In the "Download Controls" panel, enter the **number** of new videos you want to search for.
+3.  Choose the content **Type** (`Videos` or `Shorts`).
+4.  Select your desired **Resolution** (e.g., 1080p).
+5.  Click the **Download** button!
+
+### Using Cookies for Private Content
+
+1.  Install a browser extension that can export cookies in **Netscape** format (e.g., [Get cookies.txt LOCALLY](https://chrome.google.com/webstore/detail/get-cookiestxt-locally/jjlcamleiafcjlcikddoceicomdloiad)).
+2.  Navigate to YouTube.com and export your cookies using the extension.
+3.  In TubeFetch, go to **Settings** -> **YouTube Cookie Settings**.
+4.  Paste the entire content of your Netscape cookie file into the text box.
+5.  Click **Save Cookies**. The app will now use your login session for all future requests.
+
+## Acknowledgements
+
+This project would be impossible without the hard work of the teams behind these incredible open-source projects:
+
+*   [**yt-dlp**](https://github.com/yt-dlp/yt-dlp): The core engine that powers all interactions with YouTube.
+*   [**Python**](https://www.python.org/): The language that powers the app.
+*   [**PyQt5**](https://riverbankcomputing.com/software/pyqt/): The GUI toolkit used to build the user interface.
+
+## License
+
+This project is proprietary. See the licensing terms above for information on obtaining a key.
